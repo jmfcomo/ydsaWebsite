@@ -1,5 +1,12 @@
+@font-face {
+  font-family: manifoldDSA;
+  src: url(./fonts/ManifoldDSA-Regular.otf);
+}
+
 .App {
   text-align: center;
+  background-color: #EC1F27;
+  font-family: manifoldDSA;
 }
 
 .App-logo {
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #231F20;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel {
+  padding-bottom: 8rem;
+  padding-top: 2rem;.
+  
+}
+
+.carousel-caption {
+  top: 100%;
+  padding: 2rem;
+}
+
+.carousel-inner {
+  overflow: visible;
 }
